@@ -12,7 +12,7 @@ body{
 
 /* TV */
 .tv{
-    background:#000;
+    background:#000000;
     padding:10px;
     border-radius:25px;
     box-shadow:0 0 20px #009494, inset 0 0 20px #009797;
@@ -103,4 +103,10 @@ body{
     height:20px;
     border:1px solid black;
     margin:2px;
+}
+@keyframes aparecer{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
